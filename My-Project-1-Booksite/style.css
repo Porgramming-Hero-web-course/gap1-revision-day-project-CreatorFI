@@ -1,0 +1,65 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.form-control{
+    border-radius: 10px;
+}
+.form-control:focus {
+    box-shadow: none;
+  }
+  
+  .form-control-underlined {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    padding-left: 0;
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+  
+  body {
+    background: #ffd89b;
+    background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+    background: linear-gradient(to right, #ffd89b, #19547b);
+    min-height: 100vh;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  .card ul a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  .custom-shadow{
+      box-shadow: 10px;
+      float: left;
+      padding-left: 15%;
+      width: 85%;
+  }
+  .custom-li a{
+    text-decoration: none;
+    color:lightskyblue ;
+  }
+  .custom-li{
+    text-align: center;
+     
+  }
+  .Top-3{
+    text-align: center;
+    padding-bottom: 10px;
+    color: springgreen;
+  }
